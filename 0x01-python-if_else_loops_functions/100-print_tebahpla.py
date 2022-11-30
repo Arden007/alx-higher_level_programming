@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-i = 'z'
-while i >= 'a':
+i = 122
+while i >= 97:
     diff = 0
     if i % 2 != 0:
         i = i - 32
