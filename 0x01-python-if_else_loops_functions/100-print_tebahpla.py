@@ -5,4 +5,4 @@ for i in range(ord('z'), ord('a') - 1, -1):
         flag = 0
     else:
         flag = 32
-    print('{}'.format(chr(i - flag)), end='')
+    print('{:c}'.format(chr(i - flag)), end='')
