@@ -1,3 +1,11 @@
 #!/usr/bin/python3
-for i in range(ord('z'), ord('a') - 1, -1):
-    print('{:c}'.format((i - (ord('a') -ord('A'))) if i % 2 else i), end='')
+i = 'z'
+while i >= 'a':
+    diff = 0
+    if i % 2 != 0:
+        i = i - 32
+        diff = 1
+    print("{:s}".format(chr(i)), end="")
+    if diff == 1:
+        i = i + 32
+    i = i - 1
