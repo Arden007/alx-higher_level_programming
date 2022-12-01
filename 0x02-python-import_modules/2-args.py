@@ -4,10 +4,10 @@ if __name__ == "__main__":
 
     argcount = len(sys.argv) - 1
     if argcount == 0:
-        print("{:d} argument.".format(argcount))
+        print("{} argument.".format(argcount))
     elif argcount == 1:
-        print("{:d} argument.".format(argcount))
+        print("{} argument.".format(argcount))
     else:
-        print("{:d} argument.".format(argcount))
+        print("{} argument.".format(argcount))
     for i in range(argcount):
-        print("{:d}: {:s}".format(i + 1, sys.argv[i + 1]))
+        print("{}: {}".format(i + 1, sys.argv[i + 1]))
