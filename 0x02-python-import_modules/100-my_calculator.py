@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 from calculator_1 import add, sub, mul, div
 
+
 def calculator(argv):
     i = len(argv) - 1
     if i != 3:
@@ -20,6 +21,7 @@ def calculator(argv):
     else:
         print("Unknown operator. Available operators: +, -, * and /")
         exit(1)
+
 
 if __name__ == "__main__":
     import sys
