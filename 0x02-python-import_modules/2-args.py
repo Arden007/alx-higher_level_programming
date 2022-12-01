@@ -2,13 +2,13 @@
 def num_arg(argv):
     count = len(argv) - 1
     if count == 0:
-        print("{} argument.".format(count))
+        print("{:d} argument.".format(count))
         return
     else:
         if count == 1:
-            print("{} argument:".format(count))
+            print("{:d} argument:".format(count))
         else:
-            print("{} arguments:".format(count))
+            print("{:d} arguments:".format(count))
         i = 1
     for i in range(count):
         print("{:d}: {:s}".format(i + 1, argv[i + 1]))
