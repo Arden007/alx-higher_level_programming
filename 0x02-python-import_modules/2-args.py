@@ -11,7 +11,7 @@ def num_arg(argv):
             print("{} arguments:".format(count))
         i = 1
     for i in range(count):
-        print("{}: {}".format(i + 1, argv[i + 1]))
+        print("{:d}: {:s}".format(i + 1, argv[i + 1]))
 
 if __name__ == "__main__":
     import sys
