@@ -6,7 +6,5 @@ def weight_average(my_list=[]):
     value = 0
     for i, x in my_list:
         key += i * x
-        print("key = {}",key)
         value += x
-        print("value = {}",value)
     return (key /value)
