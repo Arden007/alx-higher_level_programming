@@ -7,5 +7,5 @@ SELECT `name`, SUM(`rate`) AS `rating`
 
        INNER JOIN `tv_show_ratings` AS r
        ON r.`show_id` = t.`show_id`
- GROUP BY g.`name`
+ GROUP BY `name`
  ORDER BY `rating` DESC;
