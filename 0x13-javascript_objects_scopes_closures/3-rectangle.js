@@ -15,11 +15,11 @@ class Rectangle {
     }
   }
   
-print() {
+  print () {
     for (let i = 0; i < this.height; i++) {
-      let rec = '';
+        let rec = '';
         for (let j = 0; j < this.width; j++) {
-          rec += 'X'
+            rec += 'X'
         }
         console.log(rec);
     }
