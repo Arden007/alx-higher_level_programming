@@ -5,9 +5,9 @@ class Square extends firstSquare {
   charPrint(c) {
     if (c === undefined) 
     {
-        for (var i = 0; i < this.height; i++) {
+        for (let i = 0; i < this.height; i++) {
           let sqr = "";
-          for (var j = 0; j < this.width; j++) {
+          for (let j = 0; j < this.width; j++) {
             sqr += "X";
           }
           console.log(sqr);
@@ -15,9 +15,9 @@ class Square extends firstSquare {
     }
     else 
     {
-        for (var i = 0; i < this.height; i++) {
+        for (let i = 0; i < this.height; i++) {
           let sqr = "";
-          for (var j = 0; j < this.width; j++) {
+          for (let j = 0; j < this.width; j++) {
             sqr += c;
           }
           console.log(sqr);
