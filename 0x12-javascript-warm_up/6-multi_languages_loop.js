@@ -1,6 +1,5 @@
 #!/usr/bin/node
-let statments = ["C is fun", "Python is cool", "JavaScript is amazing"];
-for (let i = 0; i < statments.length; i++)
-{
+const statments = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
+for (let i = 0; i < statments.length; i++) {
     console.log(statments[i]);
 }
