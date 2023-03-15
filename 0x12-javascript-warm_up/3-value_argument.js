@@ -1,6 +1,6 @@
 #!/usr/bin/node
-var argc = process.argv.length
-var argv = process.argv
+const argc = process.argv.length
+const argv = process.argv
 
 if (argc >= 2)
 {
