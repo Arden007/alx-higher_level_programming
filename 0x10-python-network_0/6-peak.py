@@ -12,9 +12,11 @@ def find_peak(list_of_integers):
 
     if list_of_integers is None or list_of_integers == []:
         return None
+    
     size = len(list_of_integers)
     mid = (size // 2)
     mid = int(mid)
+    
     if size == 1:
         return list_of_integers[0]
     if size == 2:
