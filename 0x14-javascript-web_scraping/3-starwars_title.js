@@ -1,8 +1,8 @@
 #!/usr/bin/node
 
-const request = require("request");
+const request = require('request');
 const movieId = process.argv[2];
-const url = "https://swapi-api.alx-tools.com/api/films/";
+const url = 'https://swapi-api.alx-tools.com/api/films/';
 
 request(url + movieId, (err, response, body) => {
   if (err) {
@@ -11,6 +11,6 @@ request(url + movieId, (err, response, body) => {
     const responseJSON = JSON.parse(body);
     console.log(responseJSON.title);
   } else {
-    console.log("Error code: " + response.statusCode);
+    console.log('Error code: ' + response.statusCode);
   }
 });
