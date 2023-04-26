@@ -9,8 +9,7 @@ request.get(url, (error, response, body) => {
     return;
   }
   const data = JSON.parse(body);
-//   console.log(data);
-  let characters = data.characters;
+  const characters = data.characters;
   for (const character of characters) {
     request(character, (error, response, body) => {
       if (error) {
